@@ -2,6 +2,8 @@
 layout: default
 title: Laravel
 permalink: /docs/backend/laravel/
+redirect_from:
+  - /docs/backend/laravel.html
 ---
 
 # Laravel

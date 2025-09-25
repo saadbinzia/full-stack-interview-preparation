@@ -2,6 +2,8 @@
 layout: default
 title: Angular
 permalink: /docs/frontend/angular/
+redirect_from:
+  - /docs/frontend/angular.html
 ---
 
 # Angular

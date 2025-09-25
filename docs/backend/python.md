@@ -2,6 +2,8 @@
 layout: default
 title: Python
 permalink: /docs/backend/python/
+redirect_from:
+  - /docs/backend/python.html
 ---
 
 # Python

@@ -2,6 +2,8 @@
 layout: default
 title: Study Strategies & Interview Preparation
 permalink: /docs/resources/study-strategies/
+redirect_from:
+  - /docs/resources/study-strategies.html
 ---
 
 # Study Strategies & Interview Preparation

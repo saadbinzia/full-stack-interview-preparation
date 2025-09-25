@@ -2,6 +2,8 @@
 layout: default
 title: Nuxt.js & Next.js
 permalink: /docs/frontend/nuxt-nextjs/
+redirect_from:
+  - /docs/frontend/nuxt-nextjs.html
 ---
 
 # Nuxt.js & Next.js

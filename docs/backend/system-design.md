@@ -2,6 +2,8 @@
 layout: default
 title: System Design
 permalink: /docs/backend/system-design/
+redirect_from:
+  - /docs/backend/system-design.html
 ---
 
 # System Design

@@ -2,6 +2,8 @@
 layout: default
 title: Vue.js
 permalink: /docs/frontend/vuejs/
+redirect_from:
+  - /docs/frontend/vuejs.html
 ---
 
 # Vue.js

@@ -2,6 +2,8 @@
 layout: default
 title: Learning Platforms & Study Resources
 permalink: /docs/resources/learning-platforms/
+redirect_from:
+  - /docs/resources/learning-platforms.html
 ---
 
 # Learning Platforms & Study Resources
