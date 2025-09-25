@@ -837,7 +837,7 @@ button:focus,
 
 .content-wrapper {
   display: grid;
-  grid-template-columns: 250px 1fr;
+  grid-template-columns: 350px 1fr;
   gap: var(--space-8);
   align-items: start;
 }
