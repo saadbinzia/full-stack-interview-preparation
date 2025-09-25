@@ -301,13 +301,13 @@ body * {
 
 /* Content Cards */
 .content-card {
-  background: white;
-  color: var(--gray-800);
+  background: var(--gray-900);
+  color: var(--gray-100);
   border-radius: var(--radius-2xl);
   padding: var(--space-8);
   margin-bottom: var(--space-8);
   box-shadow: var(--shadow-lg);
-  border: 1px solid var(--gray-200);
+  border: 1px solid var(--gray-700);
   position: relative;
   overflow: hidden;
 }
@@ -500,13 +500,13 @@ tr:hover {
 
 /* Stats Grid */
 .stats {
-  background: white;
-  color: var(--gray-800);
+  background: var(--gray-900);
+  color: var(--gray-100);
   border-radius: var(--radius-2xl);
   padding: var(--space-8);
   margin-bottom: var(--space-8);
   box-shadow: var(--shadow-lg);
-  border: 1px solid var(--gray-200);
+  border: 1px solid var(--gray-700);
 }
 
 .stats h2 {
@@ -774,21 +774,21 @@ button:focus,
 
 /* Documentation Layout Styles */
 .navbar {
-  background: white !important;
-  color: var(--gray-800) !important;
+  background: var(--gray-900) !important;
+  color: var(--gray-100) !important;
   box-shadow: var(--shadow-md);
   position: sticky;
   top: 0;
   z-index: 1000;
-  border-bottom: 1px solid var(--gray-200);
+  border-bottom: 1px solid var(--gray-700);
 }
 
 .navbar * {
-  color: var(--gray-800) !important;
+  color: var(--gray-100) !important;
 }
 
 .navbar a {
-  color: var(--gray-600) !important;
+  color: var(--gray-300) !important;
 }
 
 .navbar a:hover {
@@ -863,18 +863,18 @@ button:focus,
 .sidebar {
   position: sticky;
   top: 100px;
-  background: white !important;
-  color: var(--gray-800) !important;
+  background: var(--gray-900) !important;
+  color: var(--gray-100) !important;
   border-radius: var(--radius-xl);
   padding: var(--space-6);
   box-shadow: var(--shadow-md);
-  border: 1px solid var(--gray-200);
+  border: 1px solid var(--gray-700);
   max-height: calc(100vh - 120px);
   overflow-y: auto;
 }
 
 .sidebar * {
-  color: var(--gray-800) !important;
+  color: var(--gray-100) !important;
 }
 
 .sidebar h3 {
@@ -882,7 +882,7 @@ button:focus,
 }
 
 .sidebar a {
-  color: var(--gray-600) !important;
+  color: var(--gray-300) !important;
 }
 
 .sidebar a:hover {
@@ -925,24 +925,24 @@ button:focus,
 
 /* Article */
 .article {
-  background: white !important;
-  color: var(--gray-800) !important;
+  background: var(--gray-900) !important;
+  color: var(--gray-100) !important;
   border-radius: var(--radius-2xl);
   padding: var(--space-8);
   box-shadow: var(--shadow-lg);
-  border: 1px solid var(--gray-200);
+  border: 1px solid var(--gray-700);
 }
 
 .article * {
-  color: var(--gray-800) !important;
+  color: var(--gray-100) !important;
 }
 
 .article h1, .article h2, .article h3, .article h4, .article h5, .article h6 {
-  color: var(--gray-800) !important;
+  color: var(--gray-100) !important;
 }
 
 .article p, .article div, .article span, .article li {
-  color: var(--gray-600) !important;
+  color: var(--gray-300) !important;
 }
 
 .article-header {
@@ -1131,7 +1131,7 @@ button:focus,
     left: -100%;
     width: 100%;
     height: calc(100vh - 70px);
-    background: white;
+    background: var(--gray-900);
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
@@ -1183,30 +1183,30 @@ button:focus,
   }
 }
 
-/* CRITICAL: Force all text to be visible on white backgrounds */
-/* This is the nuclear option to fix white text on white background */
+/* DARK THEME: Force all text to be light on dark backgrounds */
+/* This creates a dark theme with light text */
 * {
-  color: var(--gray-800) !important;
+  color: var(--gray-100) !important;
 }
 
 /* Override any specific white text classes */
 .text-white, .white-text, .text-light, .light-text {
-  color: var(--gray-800) !important;
+  color: var(--gray-100) !important;
 }
 
-/* Ensure all content is readable */
+/* Ensure all content is readable with light text */
 body, html, main, article, section, div, p, span, h1, h2, h3, h4, h5, h6, li, ul, ol, a, strong, em, code, pre, blockquote {
-  color: var(--gray-800) !important;
+  color: var(--gray-100) !important;
 }
 
 /* Override any inherited white colors */
 [style*="color: white"], [style*="color: #fff"], [style*="color: #ffffff"] {
-  color: var(--gray-800) !important;
+  color: var(--gray-100) !important;
 }
 
 /* Force visibility for all text elements */
 .article-content, .article-header, .article-footer, .toc, .nav-menu, .nav-brand {
-  color: var(--gray-800) !important;
+  color: var(--gray-100) !important;
 }
 
 .article-content *, .article-header *, .article-footer *, .toc *, .nav-menu *, .nav-brand * {
@@ -1216,16 +1216,16 @@ body, html, main, article, section, div, p, span, h1, h2, h3, h4, h5, h6, li, ul
 /* Specific overrides for mobile menu */
 @media (max-width: 768px) {
   .nav-menu {
-    background: white !important;
-    color: var(--gray-800) !important;
+    background: var(--gray-900) !important;
+    color: var(--gray-100) !important;
   }
   
   .nav-menu * {
-    color: var(--gray-800) !important;
+    color: var(--gray-100) !important;
   }
   
   .nav-menu a {
-    color: var(--gray-600) !important;
+    color: var(--gray-300) !important;
   }
   
   .nav-menu a:hover {
