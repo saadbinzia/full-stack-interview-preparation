@@ -203,4 +203,4 @@ Weeks 7-8: System Design & Interview Prep
 
 ---
 
-**Next:** [Study Strategies](study-strategies.md) | [System Design](../backend/system-design.md) | [General Strategy](../general/interview-strategy.md)
+**Next:** [Study Strategies]({{ '/docs/resources/study-strategies/' | relative_url }}) | [System Design]({{ '/docs/backend/system-design/' | relative_url }}) | [General Strategy]({{ '/docs/general/interview-strategy/' | relative_url }})

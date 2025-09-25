@@ -453,4 +453,4 @@ module.exports = {
 
 ---
 
-**Next:** [Python](backend/python.md) | [Laravel](backend/laravel.md) | [React](react.md)
+**Next:** [Python]({{ '/docs/backend/python/' | relative_url }}) | [Laravel]({{ '/docs/backend/laravel/' | relative_url }}) | [React]({{ '/docs/frontend/react/' | relative_url }})

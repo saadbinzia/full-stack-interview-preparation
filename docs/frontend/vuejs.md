@@ -279,4 +279,4 @@ export default {
 
 ---
 
-**Next:** [Angular](angular.md) | [React](react.md) | [JavaScript & TypeScript](javascript-typescript.md)
+**Next:** [Angular]({{ '/docs/frontend/angular/' | relative_url }}) | [React]({{ '/docs/frontend/react/' | relative_url }}) | [JavaScript & TypeScript]({{ '/docs/frontend/javascript-typescript/' | relative_url }})

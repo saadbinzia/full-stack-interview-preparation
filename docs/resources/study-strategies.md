@@ -217,4 +217,4 @@ Week 3: Consider other opportunities if no response
 
 ---
 
-**Next:** [Learning Platforms](learning-platforms.md) | [General Strategy](../general/interview-strategy.md) | [System Design](../backend/system-design.md)
+**Next:** [Learning Platforms]({{ '/docs/resources/learning-platforms/' | relative_url }}) | [General Strategy]({{ '/docs/general/interview-strategy/' | relative_url }}) | [System Design]({{ '/docs/backend/system-design/' | relative_url }})

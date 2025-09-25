@@ -382,4 +382,4 @@ class Container<T> {
 
 ---
 
-**Next:** [Vue.js](vuejs.md) | [Angular](angular.md) | [React](react.md)
+**Next:** [Vue.js]({{ '/docs/frontend/vuejs/' | relative_url }}) | [Angular]({{ '/docs/frontend/angular/' | relative_url }}) | [React]({{ '/docs/frontend/react/' | relative_url }})

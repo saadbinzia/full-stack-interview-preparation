@@ -682,4 +682,4 @@ php artisan queue:work --tries=3 --timeout=60
 
 ---
 
-**Next:** [System Design](system-design.md) | [Python](python.md) | [JavaScript & TypeScript](../frontend/javascript-typescript.md)
+**Next:** [System Design]({{ '/docs/backend/system-design/' | relative_url }}) | [Python]({{ '/docs/backend/python/' | relative_url }}) | [JavaScript & TypeScript]({{ '/docs/frontend/javascript-typescript/' | relative_url }})

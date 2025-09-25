@@ -395,4 +395,4 @@ rect = Rectangle(5, 3)  # OK
 
 ---
 
-**Next:** [Laravel](laravel.md) | [System Design](system-design.md) | [JavaScript & TypeScript](../frontend/javascript-typescript.md)
+**Next:** [Laravel]({{ '/docs/backend/laravel/' | relative_url }}) | [System Design]({{ '/docs/backend/system-design/' | relative_url }}) | [JavaScript & TypeScript]({{ '/docs/frontend/javascript-typescript/' | relative_url }})
