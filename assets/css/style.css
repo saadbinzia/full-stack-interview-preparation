@@ -1,16 +1,16 @@
 /* Full-Stack Interview Preparation Guide - Modern Design System */
 
-/* CSS Variables for consistent theming */
+/* CSS Variables for Dark Mode Theme */
 :root {
-  /* Colors */
-  --primary-color: #2563eb;
-  --primary-dark: #1d4ed8;
-  --primary-light: #3b82f6;
-  --secondary-color: #7c3aed;
-  --accent-color: #06b6d4;
+  /* Dark Mode Colors */
+  --primary-color: #60a5fa;
+  --primary-dark: #3b82f6;
+  --primary-light: #93c5fd;
+  --secondary-color: #a78bfa;
+  --accent-color: #34d399;
   --success-color: #10b981;
-  --warning-color: #f59e0b;
-  --error-color: #ef4444;
+  --warning-color: #fbbf24;
+  --error-color: #f87171;
   
   /* Neutral Colors */
   --gray-50: #f9fafb;
@@ -67,36 +67,13 @@
   box-sizing: border-box;
 }
 
-/* Ensure all white background elements have proper text color */
-[style*="background: white"],
-[style*="background-color: white"],
-.white-bg,
-.white {
-  color: var(--gray-800) !important;
-}
-
-/* Force text color for all elements on white backgrounds */
+/* Dark Mode Base Styles */
 * {
   color: inherit;
 }
 
-/* Override any white text on white backgrounds */
 body, html {
-  color: var(--gray-800);
-}
-
-/* Ensure all text elements have proper color */
-p, div, span, h1, h2, h3, h4, h5, h6, li, ul, ol, a, strong, em, code, pre {
-  color: inherit;
-}
-
-/* Specific overrides for white backgrounds */
-.article, .sidebar, .content-card, .stats, .navbar, .nav, .breadcrumbs {
-  color: var(--gray-800) !important;
-}
-
-.article *, .sidebar *, .content-card *, .stats *, .navbar *, .nav *, .breadcrumbs * {
-  color: inherit;
+  color: var(--gray-100);
 }
 
 html {
@@ -107,22 +84,12 @@ html {
 body {
   font-family: var(--font-sans);
   line-height: 1.6;
-  color: var(--gray-800) !important;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: var(--gray-100);
+  background: linear-gradient(135deg, #1e293b 0%, #0f172a 50%, #1e1b4b 100%);
   min-height: 100vh;
   font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-/* Force all text to be dark on white backgrounds */
-body * {
-  color: var(--gray-800) !important;
-}
-
-/* Override any white text specifically */
-.white-text, .text-white {
-  color: var(--gray-800) !important;
 }
 
 /* Container */
@@ -135,11 +102,15 @@ body * {
 /* Header */
 .header {
   text-align: center;
-  color: white;
+  color: var(--gray-100);
   margin-bottom: var(--space-16);
   padding: var(--space-16) 0;
   position: relative;
   overflow: hidden;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: var(--radius-2xl);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .header::before {
@@ -207,13 +178,13 @@ body * {
 
 /* Navigation */
 .nav {
-  background: white;
+  background: var(--gray-900);
   border-radius: var(--radius-2xl);
   padding: var(--space-8);
   margin-bottom: var(--space-12);
   box-shadow: var(--shadow-xl);
   backdrop-filter: blur(20px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid var(--gray-700);
 }
 
 .nav h2 {
@@ -439,7 +410,7 @@ table {
   width: 100%;
   border-collapse: collapse;
   margin: var(--space-6) 0;
-  background: white;
+  background: var(--gray-900);
   border-radius: var(--radius-lg);
   overflow: hidden;
   box-shadow: var(--shadow-md);
@@ -534,7 +505,7 @@ tr:hover {
 .stat-item:hover {
   transform: translateY(-4px);
   box-shadow: var(--shadow-md);
-  background: white;
+  background: var(--gray-900);
 }
 
 .stat-number {
@@ -612,12 +583,12 @@ tr:hover {
 
 /* Breadcrumbs */
 .breadcrumbs {
-  background: white;
+  background: var(--gray-900);
   padding: var(--space-4) var(--space-6);
   border-radius: var(--radius-lg);
   margin-bottom: var(--space-6);
   box-shadow: var(--shadow-sm);
-  border: 1px solid var(--gray-200);
+  border: 1px solid var(--gray-700);
 }
 
 .breadcrumbs a {
@@ -704,16 +675,16 @@ tr:hover {
   }
 }
 
-/* Print Styles */
+/* Print Styles - Dark Mode */
 @media print {
   body {
-    background: white;
-    color: black;
+    background: var(--gray-900);
+    color: var(--gray-100);
   }
   
   .header {
-    background: white;
-    color: black;
+    background: var(--gray-900);
+    color: var(--gray-100);
   }
   
   .nav, .badges, .back-to-top {
@@ -729,7 +700,7 @@ tr:hover {
 /* Dark mode support */
 @media (prefers-color-scheme: dark) {
   :root {
-    /* --gray-50: #1f2937;
+    --gray-50: #1f2937;
     --gray-100: #374151;
     --gray-200: #4b5563;
     --gray-300: #6b7280;
@@ -738,7 +709,7 @@ tr:hover {
     --gray-600: #e5e7eb;
     --gray-700: #f3f4f6;
     --gray-800: #f9fafb;
-    --gray-900: #ffffff; */
+    --gray-900: #ffffff;
   }
 }
 
@@ -1183,34 +1154,23 @@ button:focus,
   }
 }
 
-/* DARK THEME: Force all text to be light on dark backgrounds */
-/* This creates a dark theme with light text */
+/* Pure Dark Mode - All text is light colored */
 * {
-  color: var(--gray-100) !important;
-}
-
-/* Override any specific white text classes */
-.text-white, .white-text, .text-light, .light-text {
-  color: var(--gray-100) !important;
+  color: var(--gray-100);
 }
 
 /* Ensure all content is readable with light text */
 body, html, main, article, section, div, p, span, h1, h2, h3, h4, h5, h6, li, ul, ol, a, strong, em, code, pre, blockquote {
-  color: var(--gray-100) !important;
+  color: var(--gray-100);
 }
 
-/* Override any inherited white colors */
-[style*="color: white"], [style*="color: #fff"], [style*="color: #ffffff"] {
-  color: var(--gray-100) !important;
-}
-
-/* Force visibility for all text elements */
+/* Content areas with proper text hierarchy */
 .article-content, .article-header, .article-footer, .toc, .nav-menu, .nav-brand {
-  color: var(--gray-100) !important;
+  color: var(--gray-100);
 }
 
 .article-content *, .article-header *, .article-footer *, .toc *, .nav-menu *, .nav-brand * {
-  color: inherit !important;
+  color: inherit;
 }
 
 /* Specific overrides for mobile menu */
