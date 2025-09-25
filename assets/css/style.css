@@ -382,7 +382,7 @@ pre code {
 
 /* Inline Code */
 p code, li code {
-  background: var(--gray-100);
+  background: var(--gray-700);
   color: var(--primary-color);
   padding: var(--space-1) var(--space-2);
   border-radius: var(--radius-sm);
