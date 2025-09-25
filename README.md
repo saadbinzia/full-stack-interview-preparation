@@ -2,9 +2,9 @@
 
 > **Comprehensive interview preparation covering JavaScript, TypeScript, Vue.js, Angular, React, Python, Laravel, system design, and more. 3000+ lines of examples and explanations for senior-level positions.**
 
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/full-stack-interview-preparation?style=social)](https://github.com/yourusername/full-stack-interview-preparation)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/full-stack-interview-preparation?style=social)](https://github.com/yourusername/full-stack-interview-preparation)
-[![GitHub issues](https://img.shields.io/github/issues/yourusername/full-stack-interview-preparation)](https://github.com/yourusername/full-stack-interview-preparation/issues)
+[![GitHub stars](https://img.shields.io/github/stars/saadbinzia/full-stack-interview-preparation?style=social)](https://github.com/saadbinzia/full-stack-interview-preparation)
+[![GitHub forks](https://img.shields.io/github/forks/saadbinzia/full-stack-interview-preparation?style=social)](https://github.com/saadbinzia/full-stack-interview-preparation)
+[![GitHub issues](https://img.shields.io/github/issues/saadbinzia/full-stack-interview-preparation)](https://github.com/saadbinzia/full-stack-interview-preparation/issues)
 
 ## 📚 Quick Navigation
 
@@ -31,7 +31,7 @@
 
 ## 🌐 Web Access
 
-This guide is available as a website at: **[https://yourusername.github.io/full-stack-interview-preparation](https://yourusername.github.io/full-stack-interview-preparation)**
+This guide is available as a website at: **[https://saadbinzia.github.io/full-stack-interview-preparation](https://saadbinzia.github.io/full-stack-interview-preparation)**
 
 **Note:** If the web version isn't working yet, you can access all content directly through the GitHub repository links below.
 

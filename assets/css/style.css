@@ -67,6 +67,13 @@
   box-sizing: border-box;
 }
 
+/* Ensure all white background elements have proper text color */
+[style*="background: white"],
+[style*="background-color: white"],
+.white-bg {
+  color: var(--gray-800) !important;
+}
+
 html {
   scroll-behavior: smooth;
   font-size: 16px;
@@ -260,6 +267,7 @@ body {
 /* Content Cards */
 .content-card {
   background: white;
+  color: var(--gray-800);
   border-radius: var(--radius-2xl);
   padding: var(--space-8);
   margin-bottom: var(--space-8);
@@ -458,6 +466,7 @@ tr:hover {
 /* Stats Grid */
 .stats {
   background: white;
+  color: var(--gray-800);
   border-radius: var(--radius-2xl);
   padding: var(--space-8);
   margin-bottom: var(--space-8);
@@ -731,6 +740,7 @@ button:focus,
 /* Documentation Layout Styles */
 .navbar {
   background: white;
+  color: var(--gray-800);
   box-shadow: var(--shadow-md);
   position: sticky;
   top: 0;
@@ -807,6 +817,7 @@ button:focus,
   position: sticky;
   top: 100px;
   background: white;
+  color: var(--gray-800);
   border-radius: var(--radius-xl);
   padding: var(--space-6);
   box-shadow: var(--shadow-md);
@@ -852,6 +863,7 @@ button:focus,
 /* Article */
 .article {
   background: white;
+  color: var(--gray-800);
   border-radius: var(--radius-2xl);
   padding: var(--space-8);
   box-shadow: var(--shadow-lg);
