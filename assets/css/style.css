@@ -99,6 +99,7 @@ body {
   color: white;
   background: linear-gradient(135deg, #1e293b 0%, #0f172a 50%, #1e1b4b 100%);
   min-height: 100vh;
+  padding-top: var(--space-8);
   font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
