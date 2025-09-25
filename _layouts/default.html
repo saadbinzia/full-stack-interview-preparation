@@ -9,155 +9,63 @@
     <!-- CSS -->
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     
-    <!-- GitHub Pages CSS -->
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        
-        .header {
-            text-align: center;
-            margin-bottom: 2rem;
-            padding: 2rem 0;
-            border-bottom: 2px solid #f0f0f0;
-        }
-        
-        .header h1 {
-            color: #2c3e50;
-            margin-bottom: 0.5rem;
-        }
-        
-        .header p {
-            color: #7f8c8d;
-            font-size: 1.1rem;
-        }
-        
-        .nav {
-            margin: 2rem 0;
-            padding: 1rem;
-            background: #f8f9fa;
-            border-radius: 8px;
-        }
-        
-        .nav ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1rem;
-        }
-        
-        .nav a {
-            color: #2c3e50;
-            text-decoration: none;
-            padding: 0.5rem 1rem;
-            border-radius: 4px;
-            transition: background-color 0.3s;
-        }
-        
-        .nav a:hover {
-            background-color: #e9ecef;
-        }
-        
-        .content {
-            margin: 2rem 0;
-        }
-        
-        .content h1, .content h2, .content h3 {
-            color: #2c3e50;
-            margin-top: 2rem;
-        }
-        
-        .content h1 {
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 0.5rem;
-        }
-        
-        .content pre {
-            background: #f8f9fa;
-            padding: 1rem;
-            border-radius: 4px;
-            overflow-x: auto;
-            border-left: 4px solid #3498db;
-        }
-        
-        .content code {
-            background: #f1f2f6;
-            padding: 0.2rem 0.4rem;
-            border-radius: 3px;
-            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
-        }
-        
-        .content pre code {
-            background: none;
-            padding: 0;
-        }
-        
-        .footer {
-            margin-top: 3rem;
-            padding-top: 2rem;
-            border-top: 1px solid #e9ecef;
-            text-align: center;
-            color: #7f8c8d;
-        }
-        
-        .back-to-top {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background: #3498db;
-            color: white;
-            padding: 10px;
-            border-radius: 50%;
-            text-decoration: none;
-            display: none;
-        }
-        
-        .back-to-top:hover {
-            background: #2980b9;
-        }
-        
-        @media (max-width: 768px) {
-            .nav ul {
-                flex-direction: column;
-            }
-            
-            body {
-                padding: 10px;
-            }
-        }
-    </style>
+    <!-- Custom styles are handled by style.css -->
 </head>
 <body>
-    <div class="header">
-        <h1>{{ site.title }}</h1>
-        <p>{{ site.description }}</p>
+    <div class="container">
+        <div class="header">
+            <div class="header-content">
+                <h1>{{ site.title }}</h1>
+                <p>{{ site.description }}</p>
+            </div>
+        </div>
+        
+        <nav class="nav">
+            <h2>Quick Navigation</h2>
+            <div class="nav-grid">
+                <div class="nav-card">
+                    <h3>General Strategy</h3>
+                    <ul>
+                        <li><a href="{{ '/docs/general/interview-strategy/' | relative_url }}">Interview Strategy</a></li>
+                    </ul>
+                </div>
+                <div class="nav-card">
+                    <h3>Frontend Development</h3>
+                    <ul>
+                        <li><a href="{{ '/docs/frontend/javascript-typescript/' | relative_url }}">JavaScript & TypeScript</a></li>
+                        <li><a href="{{ '/docs/frontend/react/' | relative_url }}">React</a></li>
+                        <li><a href="{{ '/docs/frontend/vuejs/' | relative_url }}">Vue.js</a></li>
+                        <li><a href="{{ '/docs/frontend/angular/' | relative_url }}">Angular</a></li>
+                        <li><a href="{{ '/docs/frontend/nuxt-nextjs/' | relative_url }}">Nuxt.js & Next.js</a></li>
+                    </ul>
+                </div>
+                <div class="nav-card">
+                    <h3>Backend Development</h3>
+                    <ul>
+                        <li><a href="{{ '/docs/backend/python/' | relative_url }}">Python</a></li>
+                        <li><a href="{{ '/docs/backend/laravel/' | relative_url }}">Laravel</a></li>
+                        <li><a href="{{ '/docs/backend/system-design/' | relative_url }}">System Design</a></li>
+                    </ul>
+                </div>
+                <div class="nav-card">
+                    <h3>Study Resources</h3>
+                    <ul>
+                        <li><a href="{{ '/docs/resources/learning-platforms/' | relative_url }}">Learning Platforms</a></li>
+                        <li><a href="{{ '/docs/resources/study-strategies/' | relative_url }}">Study Strategies</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <main class="content">
+            {{ content }}
+        </main>
+        
+        <footer class="footer">
+            <p>Made with ❤️ for the developer community</p>
+            <p>Open source • MIT License • <a href="https://github.com/saadbinzia/full-stack-interview-preparation">GitHub</a></p>
+        </footer>
     </div>
-    
-    <nav class="nav">
-        <ul>
-            <li><a href="{{ '/' | relative_url }}">Home</a></li>
-            <li><a href="{{ '/docs/general/interview-strategy.html' | relative_url }}">General Strategy</a></li>
-            <li><a href="{{ '/docs/frontend/' | relative_url }}">Frontend</a></li>
-            <li><a href="{{ '/docs/backend/' | relative_url }}">Backend</a></li>
-            <li><a href="{{ '/docs/resources/' | relative_url }}">Resources</a></li>
-        </ul>
-    </nav>
-    
-    <main class="content">
-        {{ content }}
-    </main>
-    
-    <footer class="footer">
-        <p>Made with ❤️ for the developer community</p>
-        <p>Open source • MIT License • <a href="https://github.com/yourusername/full-stack-interview-preparation">GitHub</a></p>
-    </footer>
     
     <a href="#" class="back-to-top" id="back-to-top">↑</a>
     
