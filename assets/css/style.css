@@ -302,7 +302,7 @@ body {
 .nav-link {
   display: flex;
   align-items: center;
-  gap: var(--space-3);
+  gap: var(--space-4);
   padding: var(--space-3);
   background: var(--gray-700);
   border: 1px solid var(--gray-600);
@@ -1026,7 +1026,7 @@ button:focus,
 .related-link {
   display: flex;
   align-items: center;
-  gap: var(--space-3);
+  gap: var(--space-4);
   padding: var(--space-3);
   background: var(--gray-800);
   border: 1px solid var(--gray-600);
@@ -1064,7 +1064,7 @@ button:focus,
 .quick-nav-link {
   display: flex;
   align-items: center;
-  gap: var(--space-3);
+  gap: var(--space-4);
   padding: var(--space-3);
   background: var(--gray-700);
   border: 1px solid var(--gray-500);
