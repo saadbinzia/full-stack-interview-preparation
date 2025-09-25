@@ -1,3 +1,9 @@
+---
+layout: default
+title: JavaScript & TypeScript
+permalink: /docs/frontend/javascript-typescript/
+---
+
 # JavaScript & TypeScript
 
 ## JavaScript Core Concepts

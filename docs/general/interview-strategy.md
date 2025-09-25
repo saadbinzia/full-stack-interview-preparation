@@ -1,5 +1,20 @@
 # General Interview Preparation Strategy
 
+## Soft Skills & Experience (10+ Years)
+
+### Behavioral Questions to Prepare:
+- Past projects: What was your role? What technical challenges did you face?
+- Team collaboration: Code reviews, Agile environment experience
+- System design: Scalability and performance optimization discussions
+- Leadership: Mentoring junior developers, technical decision making
+
+### Key Areas to Discuss:
+- Code review processes and best practices
+- Working in Agile/Scrum environments
+- Handling technical debt and refactoring
+- Performance optimization strategies
+- Cross-team collaboration and communication
+
 ## Problem-Solving Approach
 
 ### 1. Understand the "Why"
@@ -16,21 +31,6 @@
 - **Outline:** Explain your thought process before coding
 - **Code:** Write clean, readable code
 - **Test:** Walk through test cases including edge cases
-
-## Soft Skills & Experience (10+ Years)
-
-### Behavioral Questions to Prepare:
-- Past projects: What was your role? What technical challenges did you face?
-- Team collaboration: Code reviews, Agile environment experience
-- System design: Scalability and performance optimization discussions
-- Leadership: Mentoring junior developers, technical decision making
-
-### Key Areas to Discuss:
-- Code review processes and best practices
-- Working in Agile/Scrum environments
-- Handling technical debt and refactoring
-- Performance optimization strategies
-- Cross-team collaboration and communication
 
 ## Interview Success Tips
 

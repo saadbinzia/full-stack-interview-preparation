@@ -1,3 +1,9 @@
+---
+layout: default
+title: Learning Platforms & Study Resources
+permalink: /docs/resources/learning-platforms/
+---
+
 # Learning Platforms & Study Resources
 
 ## Preparation Portals & Study Strategies

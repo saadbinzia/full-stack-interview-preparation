@@ -22,35 +22,35 @@
     
     <!-- Frontend Development -->
     <url>
-        <loc>https://saadbinzia.github.io/full-stack-interview-preparation/docs/frontend/javascript-typescript.html</loc>
+        <loc>https://saadbinzia.github.io/full-stack-interview-preparation/docs/frontend/javascript-typescript/</loc>
         <lastmod>2025-01-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     
     <url>
-        <loc>https://saadbinzia.github.io/full-stack-interview-preparation/docs/frontend/react.html</loc>
+        <loc>https://saadbinzia.github.io/full-stack-interview-preparation/docs/frontend/react/</loc>
         <lastmod>2025-01-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     
     <url>
-        <loc>https://saadbinzia.github.io/full-stack-interview-preparation/docs/frontend/vuejs.html</loc>
+        <loc>https://saadbinzia.github.io/full-stack-interview-preparation/docs/frontend/vuejs/</loc>
         <lastmod>2025-01-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     
     <url>
-        <loc>https://saadbinzia.github.io/full-stack-interview-preparation/docs/frontend/angular.html</loc>
+        <loc>https://saadbinzia.github.io/full-stack-interview-preparation/docs/frontend/angular/</loc>
         <lastmod>2025-01-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     
     <url>
-        <loc>https://saadbinzia.github.io/full-stack-interview-preparation/docs/frontend/nuxt-nextjs.html</loc>
+        <loc>https://saadbinzia.github.io/full-stack-interview-preparation/docs/frontend/nuxt-nextjs/</loc>
         <lastmod>2025-01-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -58,21 +58,21 @@
     
     <!-- Backend Development -->
     <url>
-        <loc>https://saadbinzia.github.io/full-stack-interview-preparation/docs/backend/python.html</loc>
+        <loc>https://saadbinzia.github.io/full-stack-interview-preparation/docs/backend/python/</loc>
         <lastmod>2025-01-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     
     <url>
-        <loc>https://saadbinzia.github.io/full-stack-interview-preparation/docs/backend/laravel.html</loc>
+        <loc>https://saadbinzia.github.io/full-stack-interview-preparation/docs/backend/laravel/</loc>
         <lastmod>2025-01-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     
     <url>
-        <loc>https://saadbinzia.github.io/full-stack-interview-preparation/docs/backend/system-design.html</loc>
+        <loc>https://saadbinzia.github.io/full-stack-interview-preparation/docs/backend/system-design/</loc>
         <lastmod>2025-01-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
@@ -80,14 +80,14 @@
     
     <!-- Study Resources -->
     <url>
-        <loc>https://saadbinzia.github.io/full-stack-interview-preparation/docs/resources/learning-platforms.html</loc>
+        <loc>https://saadbinzia.github.io/full-stack-interview-preparation/docs/resources/learning-platforms/</loc>
         <lastmod>2025-01-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://saadbinzia.github.io/full-stack-interview-preparation/docs/resources/study-strategies.html</loc>
+        <loc>https://saadbinzia.github.io/full-stack-interview-preparation/docs/resources/study-strategies/</loc>
         <lastmod>2025-01-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>

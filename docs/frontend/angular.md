@@ -1,3 +1,9 @@
+---
+layout: default
+title: Angular
+permalink: /docs/frontend/angular/
+---
+
 # Angular
 
 ## Core Concepts & Architecture

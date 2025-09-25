@@ -1,3 +1,9 @@
+---
+layout: default
+title: Nuxt.js & Next.js
+permalink: /docs/frontend/nuxt-nextjs/
+---
+
 # Nuxt.js & Next.js
 
 ## Nuxt.js

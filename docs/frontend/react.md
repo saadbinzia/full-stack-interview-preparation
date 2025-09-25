@@ -1,3 +1,9 @@
+---
+layout: default
+title: React
+permalink: /docs/frontend/react/
+---
+
 # React
 
 ## Core Concepts & JSX

@@ -1,3 +1,9 @@
+---
+layout: default
+title: System Design
+permalink: /docs/backend/system-design/
+---
+
 # System Design
 
 ## Back-End Concepts & System Design

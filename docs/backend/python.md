@@ -1,3 +1,9 @@
+---
+layout: default
+title: Python
+permalink: /docs/backend/python/
+---
+
 # Python
 
 ## Core Concepts

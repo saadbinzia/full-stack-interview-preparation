@@ -1,3 +1,9 @@
+---
+layout: default
+title: Study Strategies & Interview Preparation
+permalink: /docs/resources/study-strategies/
+---
+
 # Study Strategies & Interview Preparation
 
 ## Study Strategies

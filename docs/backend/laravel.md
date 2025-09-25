@@ -1,3 +1,9 @@
+---
+layout: default
+title: Laravel
+permalink: /docs/backend/laravel/
+---
+
 # Laravel
 
 ## MVC Architecture & Core Concepts

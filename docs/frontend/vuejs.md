@@ -1,3 +1,9 @@
+---
+layout: default
+title: Vue.js
+permalink: /docs/frontend/vuejs/
+---
+
 # Vue.js
 
 ## Core Concepts
