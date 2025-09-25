@@ -147,65 +147,79 @@
                                 <span>Back to Home</span>
                             </a>
                             
-                            {% if page.url contains '/docs/frontend/' %}
-                                {% if page.url contains 'javascript-typescript' %}
-                                    <a href="{{ '/docs/frontend/react/' | relative_url }}" class="nav-link next">
-                                        <span>React</span>
-                                        <i class="fas fa-arrow-right"></i>
-                                    </a>
-                                {% elsif page.url contains 'react' %}
-                                    <a href="{{ '/docs/frontend/vuejs/' | relative_url }}" class="nav-link next">
-                                        <span>Vue.js</span>
-                                        <i class="fas fa-arrow-right"></i>
-                                    </a>
-                                {% elsif page.url contains 'vuejs' %}
-                                    <a href="{{ '/docs/frontend/angular/' | relative_url }}" class="nav-link next">
-                                        <span>Angular</span>
-                                        <i class="fas fa-arrow-right"></i>
-                                    </a>
-                                {% elsif page.url contains 'angular' %}
-                                    <a href="{{ '/docs/frontend/nuxt-nextjs/' | relative_url }}" class="nav-link next">
-                                        <span>Nuxt.js & Next.js</span>
-                                        <i class="fas fa-arrow-right"></i>
-                                    </a>
-                                {% elsif page.url contains 'nuxt-nextjs' %}
-                                    <a href="{{ '/docs/backend/python/' | relative_url }}" class="nav-link next">
-                                        <span>Python</span>
-                                        <i class="fas fa-arrow-right"></i>
-                                    </a>
-                                {% endif %}
-                            {% elsif page.url contains '/docs/backend/' %}
-                                {% if page.url contains 'python' %}
-                                    <a href="{{ '/docs/backend/laravel/' | relative_url }}" class="nav-link next">
-                                        <span>Laravel</span>
-                                        <i class="fas fa-arrow-right"></i>
-                                    </a>
-                                {% elsif page.url contains 'laravel' %}
-                                    <a href="{{ '/docs/backend/system-design/' | relative_url }}" class="nav-link next">
-                                        <span>System Design</span>
-                                        <i class="fas fa-arrow-right"></i>
-                                    </a>
-                                {% elsif page.url contains 'system-design' %}
-                                    <a href="{{ '/docs/resources/learning-platforms/' | relative_url }}" class="nav-link next">
-                                        <span>Learning Platforms</span>
-                                        <i class="fas fa-arrow-right"></i>
-                                    </a>
-                                {% endif %}
-                            {% elsif page.url contains '/docs/resources/' %}
-                                {% if page.url contains 'learning-platforms' %}
-                                    <a href="{{ '/docs/resources/study-strategies/' | relative_url }}" class="nav-link next">
-                                        <span>Study Strategies</span>
-                                        <i class="fas fa-arrow-right"></i>
-                                    </a>
-                                {% elsif page.url contains 'study-strategies' %}
-                                    <a href="{{ '/docs/general/interview-strategy/' | relative_url }}" class="nav-link next">
-                                        <span>Interview Strategy</span>
-                                        <i class="fas fa-arrow-right"></i>
-                                    </a>
-                                {% endif %}
-                            {% elsif page.url contains '/docs/general/' %}
+                            {% comment %} Frontend Development Navigation {% endcomment %}
+                            {% if page.url == '/docs/frontend/javascript-typescript/' %}
+                                <a href="{{ '/docs/frontend/react/' | relative_url }}" class="nav-link next">
+                                    <span>React</span>
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            {% elsif page.url == '/docs/frontend/react/' %}
+                                <a href="{{ '/docs/frontend/vuejs/' | relative_url }}" class="nav-link next">
+                                    <span>Vue.js</span>
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            {% elsif page.url == '/docs/frontend/vuejs/' %}
+                                <a href="{{ '/docs/frontend/angular/' | relative_url }}" class="nav-link next">
+                                    <span>Angular</span>
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            {% elsif page.url == '/docs/frontend/angular/' %}
+                                <a href="{{ '/docs/frontend/nuxt-nextjs/' | relative_url }}" class="nav-link next">
+                                    <span>Nuxt.js & Next.js</span>
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            {% elsif page.url == '/docs/frontend/nuxt-nextjs/' %}
+                                <a href="{{ '/docs/backend/python/' | relative_url }}" class="nav-link next">
+                                    <span>Python</span>
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            {% comment %} Backend Development Navigation {% endcomment %}
+                            {% elsif page.url == '/docs/backend/python/' %}
+                                <a href="{{ '/docs/backend/laravel/' | relative_url }}" class="nav-link next">
+                                    <span>Laravel</span>
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            {% elsif page.url == '/docs/backend/laravel/' %}
+                                <a href="{{ '/docs/backend/system-design/' | relative_url }}" class="nav-link next">
+                                    <span>System Design</span>
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            {% elsif page.url == '/docs/backend/system-design/' %}
+                                <a href="{{ '/docs/resources/learning-platforms/' | relative_url }}" class="nav-link next">
+                                    <span>Learning Platforms</span>
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            {% comment %} Resources Navigation {% endcomment %}
+                            {% elsif page.url == '/docs/resources/learning-platforms/' %}
+                                <a href="{{ '/docs/resources/study-strategies/' | relative_url }}" class="nav-link next">
+                                    <span>Study Strategies</span>
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            {% elsif page.url == '/docs/resources/study-strategies/' %}
+                                <a href="{{ '/docs/general/interview-strategy/' | relative_url }}" class="nav-link next">
+                                    <span>Interview Strategy</span>
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            {% comment %} General Strategy Navigation {% endcomment %}
+                            {% elsif page.url == '/docs/general/interview-strategy/' %}
                                 <a href="{{ '/docs/frontend/javascript-typescript/' | relative_url }}" class="nav-link next">
                                     <span>JavaScript & TypeScript</span>
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            {% comment %} Section Index Pages {% endcomment %}
+                            {% elsif page.url == '/docs/frontend/' %}
+                                <a href="{{ '/docs/frontend/javascript-typescript/' | relative_url }}" class="nav-link next">
+                                    <span>JavaScript & TypeScript</span>
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            {% elsif page.url == '/docs/backend/' %}
+                                <a href="{{ '/docs/backend/python/' | relative_url }}" class="nav-link next">
+                                    <span>Python</span>
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            {% elsif page.url == '/docs/resources/' %}
+                                <a href="{{ '/docs/resources/learning-platforms/' | relative_url }}" class="nav-link next">
+                                    <span>Learning Platforms</span>
                                     <i class="fas fa-arrow-right"></i>
                                 </a>
                             {% endif %}
