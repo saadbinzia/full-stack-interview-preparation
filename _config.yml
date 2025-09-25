@@ -13,11 +13,11 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-redirect-from
 
 # Exclude from processing
 exclude:
   - README.md
-  - README-full.md
   - CONTRIBUTING.md
   - LICENSE
   - .gitignore
@@ -54,7 +54,7 @@ navigation:
   - title: Home
     url: /
   - title: General Strategy
-    url: /docs/general/interview-strategy.html
+    url: /docs/general/interview-strategy/
   - title: Frontend
     url: /docs/frontend/
   - title: Backend

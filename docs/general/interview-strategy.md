@@ -2,6 +2,8 @@
 layout: default
 title: General Interview Preparation Strategy
 permalink: /docs/general/interview-strategy/
+redirect_from:
+  - /docs/general/interview-strategy.html
 ---
 
 # General Interview Preparation Strategy

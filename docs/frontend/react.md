@@ -2,6 +2,8 @@
 layout: default
 title: React
 permalink: /docs/frontend/react/
+redirect_from:
+  - /docs/frontend/react.html
 ---
 
 # React

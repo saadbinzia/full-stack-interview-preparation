@@ -2,6 +2,8 @@
 layout: default
 title: JavaScript & TypeScript
 permalink: /docs/frontend/javascript-typescript/
+redirect_from:
+  - /docs/frontend/javascript-typescript.html
 ---
 
 # JavaScript & TypeScript
