@@ -1,9 +1,10 @@
 name: Deploy Documentation
 
-on:
-  push:
-    branches: [ main ]
-  workflow_dispatch:
+# DISABLED - Enable after Pages is manually set up
+# on:
+#   push:
+#     branches: [ main ]
+#   workflow_dispatch:
 
 permissions:
   contents: read

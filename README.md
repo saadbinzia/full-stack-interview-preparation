@@ -33,6 +33,8 @@
 
 This guide is available as a website at: **[https://yourusername.github.io/full-stack-interview-preparation](https://yourusername.github.io/full-stack-interview-preparation)**
 
+**Note:** If the web version isn't working yet, you can access all content directly through the GitHub repository links below.
+
 ## 🚀 Quick Start
 
 1. **Choose your focus area** - Frontend, Backend, or Full-Stack
