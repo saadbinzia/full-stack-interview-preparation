@@ -70,8 +70,33 @@
 /* Ensure all white background elements have proper text color */
 [style*="background: white"],
 [style*="background-color: white"],
-.white-bg {
+.white-bg,
+.white {
   color: var(--gray-800) !important;
+}
+
+/* Force text color for all elements on white backgrounds */
+* {
+  color: inherit;
+}
+
+/* Override any white text on white backgrounds */
+body, html {
+  color: var(--gray-800);
+}
+
+/* Ensure all text elements have proper color */
+p, div, span, h1, h2, h3, h4, h5, h6, li, ul, ol, a, strong, em, code, pre {
+  color: inherit;
+}
+
+/* Specific overrides for white backgrounds */
+.article, .sidebar, .content-card, .stats, .navbar, .nav, .breadcrumbs {
+  color: var(--gray-800) !important;
+}
+
+.article *, .sidebar *, .content-card *, .stats *, .navbar *, .nav *, .breadcrumbs * {
+  color: inherit;
 }
 
 html {
@@ -82,12 +107,22 @@ html {
 body {
   font-family: var(--font-sans);
   line-height: 1.6;
-  color: var(--gray-800);
+  color: var(--gray-800) !important;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   min-height: 100vh;
   font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* Force all text to be dark on white backgrounds */
+body * {
+  color: var(--gray-800) !important;
+}
+
+/* Override any white text specifically */
+.white-text, .text-white {
+  color: var(--gray-800) !important;
 }
 
 /* Container */
@@ -739,13 +774,25 @@ button:focus,
 
 /* Documentation Layout Styles */
 .navbar {
-  background: white;
-  color: var(--gray-800);
+  background: white !important;
+  color: var(--gray-800) !important;
   box-shadow: var(--shadow-md);
   position: sticky;
   top: 0;
   z-index: 1000;
   border-bottom: 1px solid var(--gray-200);
+}
+
+.navbar * {
+  color: var(--gray-800) !important;
+}
+
+.navbar a {
+  color: var(--gray-600) !important;
+}
+
+.navbar a:hover {
+  color: var(--primary-color) !important;
 }
 
 .navbar .container {
@@ -816,14 +863,30 @@ button:focus,
 .sidebar {
   position: sticky;
   top: 100px;
-  background: white;
-  color: var(--gray-800);
+  background: white !important;
+  color: var(--gray-800) !important;
   border-radius: var(--radius-xl);
   padding: var(--space-6);
   box-shadow: var(--shadow-md);
   border: 1px solid var(--gray-200);
   max-height: calc(100vh - 120px);
   overflow-y: auto;
+}
+
+.sidebar * {
+  color: var(--gray-800) !important;
+}
+
+.sidebar h3 {
+  color: var(--primary-color) !important;
+}
+
+.sidebar a {
+  color: var(--gray-600) !important;
+}
+
+.sidebar a:hover {
+  color: var(--primary-color) !important;
 }
 
 .sidebar h3 {
@@ -862,12 +925,24 @@ button:focus,
 
 /* Article */
 .article {
-  background: white;
-  color: var(--gray-800);
+  background: white !important;
+  color: var(--gray-800) !important;
   border-radius: var(--radius-2xl);
   padding: var(--space-8);
   box-shadow: var(--shadow-lg);
   border: 1px solid var(--gray-200);
+}
+
+.article * {
+  color: var(--gray-800) !important;
+}
+
+.article h1, .article h2, .article h3, .article h4, .article h5, .article h6 {
+  color: var(--gray-800) !important;
+}
+
+.article p, .article div, .article span, .article li {
+  color: var(--gray-600) !important;
 }
 
 .article-header {
@@ -1105,5 +1180,55 @@ button:focus,
   
   .sidebar {
     padding: var(--space-4);
+  }
+}
+
+/* CRITICAL: Force all text to be visible on white backgrounds */
+/* This is the nuclear option to fix white text on white background */
+* {
+  color: var(--gray-800) !important;
+}
+
+/* Override any specific white text classes */
+.text-white, .white-text, .text-light, .light-text {
+  color: var(--gray-800) !important;
+}
+
+/* Ensure all content is readable */
+body, html, main, article, section, div, p, span, h1, h2, h3, h4, h5, h6, li, ul, ol, a, strong, em, code, pre, blockquote {
+  color: var(--gray-800) !important;
+}
+
+/* Override any inherited white colors */
+[style*="color: white"], [style*="color: #fff"], [style*="color: #ffffff"] {
+  color: var(--gray-800) !important;
+}
+
+/* Force visibility for all text elements */
+.article-content, .article-header, .article-footer, .toc, .nav-menu, .nav-brand {
+  color: var(--gray-800) !important;
+}
+
+.article-content *, .article-header *, .article-footer *, .toc *, .nav-menu *, .nav-brand * {
+  color: inherit !important;
+}
+
+/* Specific overrides for mobile menu */
+@media (max-width: 768px) {
+  .nav-menu {
+    background: white !important;
+    color: var(--gray-800) !important;
+  }
+  
+  .nav-menu * {
+    color: var(--gray-800) !important;
+  }
+  
+  .nav-menu a {
+    color: var(--gray-600) !important;
+  }
+  
+  .nav-menu a:hover {
+    color: var(--primary-color) !important;
   }
 }
