@@ -30,22 +30,11 @@ exclude:
 include:
   - docs
 
-# Collections
-collections:
-  docs:
-    output: true
-    permalink: /:collection/:name/
-
 # Defaults
 defaults:
   - scope:
       path: ""
       type: "pages"
-    values:
-      layout: "default"
-  - scope:
-      path: ""
-      type: "docs"
     values:
       layout: "default"
 
