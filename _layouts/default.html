@@ -10,7 +10,30 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     
     <!-- Font Awesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    
+    <!-- Fallback for Font Awesome -->
+    <style>
+        .fas, .far, .fab {
+            font-family: "Font Awesome 6 Free", "Font Awesome 6 Pro", "Font Awesome 6 Brands", "FontAwesome", sans-serif !important;
+            font-weight: 900;
+            font-style: normal;
+            font-variant: normal;
+            text-rendering: auto;
+            line-height: 1;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        
+        /* Fallback icons if Font Awesome doesn't load */
+        .fa-rocket::before { content: "🚀"; }
+        .fa-home::before { content: "🏠"; }
+        .fa-target::before { content: "🎯"; }
+        .fa-laptop-code::before { content: "💻"; }
+        .fa-server::before { content: "🖥️"; }
+        .fa-book::before { content: "📚"; }
+        .fa-bars::before { content: "☰"; }
+    </style>
     
     <!-- Custom styles are handled by style.css -->
 </head>
@@ -28,6 +51,7 @@
             <div class="container">
                 <div class="nav-brand">
                     <a href="{{ '/' | relative_url }}">
+                        <i class="fas fa-rocket"></i>
                         <span>Interview Prep</span>
                     </a>
                 </div>
