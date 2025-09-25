@@ -9,6 +9,9 @@
     <!-- CSS -->
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
     <!-- Custom styles are handled by style.css -->
 </head>
 <body>
@@ -20,6 +23,39 @@
             </div>
         </div>
         
+        <!-- Navigation Bar for all pages -->
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-brand">
+                    <a href="{{ '/' | relative_url }}">
+                        <i class="fas fa-rocket"></i>
+                        <span>Interview Prep</span>
+                    </a>
+                </div>
+                <div class="nav-menu" id="nav-menu">
+                    <a href="{{ '/' | relative_url }}" class="nav-link">
+                        <i class="fas fa-home"></i> Home
+                    </a>
+                    <a href="{{ '/docs/general/interview-strategy/' | relative_url }}" class="nav-link">
+                        <i class="fas fa-target"></i> Strategy
+                    </a>
+                    <a href="{{ '/docs/frontend/' | relative_url }}" class="nav-link">
+                        <i class="fas fa-laptop-code"></i> Frontend
+                    </a>
+                    <a href="{{ '/docs/backend/' | relative_url }}" class="nav-link">
+                        <i class="fas fa-server"></i> Backend
+                    </a>
+                    <a href="{{ '/docs/resources/' | relative_url }}" class="nav-link">
+                        <i class="fas fa-book"></i> Resources
+                    </a>
+                </div>
+                <div class="nav-toggle" id="nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+        
+        {% unless page.url contains '/docs/' %}
         <nav class="nav">
             <h2>Quick Navigation</h2>
             <div class="nav-grid">
@@ -56,6 +92,7 @@
                 </div>
             </div>
         </nav>
+        {% endunless %}
         
         <main class="content">
             {{ content }}
@@ -70,6 +107,12 @@
     <a href="#" class="back-to-top" id="back-to-top">↑</a>
     
     <script>
+        // Mobile navigation toggle
+        document.getElementById('nav-toggle').addEventListener('click', function() {
+            const navMenu = document.getElementById('nav-menu');
+            navMenu.classList.toggle('active');
+        });
+
         // Back to top functionality
         window.addEventListener('scroll', function() {
             const backToTop = document.getElementById('back-to-top');
