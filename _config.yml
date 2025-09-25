@@ -2,7 +2,7 @@ title: Full-Stack Interview Preparation Guide
 description: Comprehensive interview preparation covering JavaScript, TypeScript, Vue.js, Angular, React, Python, Laravel, system design, and more.
 author: Your Name
 email: your.email@example.com
-url: https://yourusername.github.io
+url: https://saadbinzia.github.io
 baseurl: /full-stack-interview-preparation
 
 # Build settings
@@ -28,7 +28,7 @@ exclude:
 
 # Include in site
 include:
-  - _pages
+  - docs
 
 # Collections
 collections:
