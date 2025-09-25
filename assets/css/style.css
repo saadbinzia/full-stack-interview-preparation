@@ -990,6 +990,7 @@ button:focus,
 .article {
   background: var(--gray-900) !important;
   color: var(--gray-100) !important;
+  scroll-padding-top: 100px; /* Account for sticky navbar */
   border-radius: var(--radius-2xl);
   padding: var(--space-8);
   box-shadow: var(--shadow-lg);
@@ -1038,6 +1039,7 @@ button:focus,
   margin-bottom: var(--space-6);
   padding-bottom: var(--space-3);
   border-bottom: 2px solid var(--gray-600);
+  scroll-margin-top: 100px; /* Account for sticky navbar */
 }
 
 .article-content h3 {
@@ -1045,6 +1047,7 @@ button:focus,
   font-size: 1.5rem;
   margin-top: var(--space-8);
   margin-bottom: var(--space-4);
+  scroll-margin-top: 100px; /* Account for sticky navbar */
 }
 
 .article-content h4 {
@@ -1052,6 +1055,7 @@ button:focus,
   font-size: 1.25rem;
   margin-top: var(--space-6);
   margin-bottom: var(--space-3);
+  scroll-margin-top: 100px; /* Account for sticky navbar */
 }
 
 .article-content p {

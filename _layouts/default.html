@@ -407,9 +407,16 @@
                     const targetElement = document.getElementById(targetId);
                     
                     if (targetElement) {
-                        targetElement.scrollIntoView({
-                            behavior: 'smooth',
-                            block: 'start'
+                        // Get navbar height to offset the scroll
+                        const navbar = document.querySelector('.navbar');
+                        const navbarHeight = navbar ? navbar.offsetHeight : 80; // fallback to 80px
+                        
+                        // Calculate the target position with offset
+                        const targetPosition = targetElement.offsetTop - navbarHeight - 20; // extra 20px padding
+                        
+                        window.scrollTo({
+                            top: targetPosition,
+                            behavior: 'smooth'
                         });
                     }
                 }
