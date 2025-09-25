@@ -490,6 +490,3 @@ describe('useCounter Hook', () => {
 });
 ```
 
----
-
-**Next:** [Nuxt.js & Next.js]({{ '/docs/frontend/nuxt-nextjs/' | relative_url }}) | [Angular]({{ '/docs/frontend/angular/' | relative_url }}) | [Vue.js]({{ '/docs/frontend/vuejs/' | relative_url }})

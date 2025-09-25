@@ -357,7 +357,3 @@ describe('UserService', () => {
   });
 });
 ```
-
----
-
-**Next:** [React]({{ '/docs/frontend/react/' | relative_url }}) | [Vue.js]({{ '/docs/frontend/vuejs/' | relative_url }}) | [JavaScript & TypeScript]({{ '/docs/frontend/javascript-typescript/' | relative_url }})

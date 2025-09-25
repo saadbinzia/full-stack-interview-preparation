@@ -680,6 +680,3 @@ php artisan queue:work --queue=high,default
 php artisan queue:work --tries=3 --timeout=60
 ```
 
----
-
-**Next:** [System Design]({{ '/docs/backend/system-design/' | relative_url }}) | [Python]({{ '/docs/backend/python/' | relative_url }}) | [JavaScript & TypeScript]({{ '/docs/frontend/javascript-typescript/' | relative_url }})

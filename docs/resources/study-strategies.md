@@ -215,6 +215,3 @@ Week 3: Consider other opportunities if no response
 - **Celebrate:** Acknowledge your effort and preparation
 - **Plan:** Adjust your preparation strategy based on experience
 
----
-
-**Next:** [Learning Platforms]({{ '/docs/resources/learning-platforms/' | relative_url }}) | [General Strategy]({{ '/docs/general/interview-strategy/' | relative_url }}) | [System Design]({{ '/docs/backend/system-design/' | relative_url }})

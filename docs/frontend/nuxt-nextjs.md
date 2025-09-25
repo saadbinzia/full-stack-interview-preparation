@@ -451,6 +451,3 @@ module.exports = {
   status = 200
 ```
 
----
-
-**Next:** [Python]({{ '/docs/backend/python/' | relative_url }}) | [Laravel]({{ '/docs/backend/laravel/' | relative_url }}) | [React]({{ '/docs/frontend/react/' | relative_url }})

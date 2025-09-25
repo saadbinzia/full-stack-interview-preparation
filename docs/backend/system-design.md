@@ -470,6 +470,3 @@ const consumeMessage = async (queue, handler) => {
 };
 ```
 
----
-
-**Next:** [Study Resources]({{ '/docs/resources/' | relative_url }}) | [Laravel]({{ '/docs/backend/laravel/' | relative_url }}) | [Python]({{ '/docs/backend/python/' | relative_url }})

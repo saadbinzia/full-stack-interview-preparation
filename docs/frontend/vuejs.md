@@ -277,6 +277,3 @@ export default {
 };
 ```
 
----
-
-**Next:** [Angular]({{ '/docs/frontend/angular/' | relative_url }}) | [React]({{ '/docs/frontend/react/' | relative_url }}) | [JavaScript & TypeScript]({{ '/docs/frontend/javascript-typescript/' | relative_url }})

@@ -393,6 +393,3 @@ rect = Rectangle(5, 3)  # OK
 # rect.width = -1  # Raises ValueError
 ```
 
----
-
-**Next:** [Laravel]({{ '/docs/backend/laravel/' | relative_url }}) | [System Design]({{ '/docs/backend/system-design/' | relative_url }}) | [JavaScript & TypeScript]({{ '/docs/frontend/javascript-typescript/' | relative_url }})
