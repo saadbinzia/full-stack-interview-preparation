@@ -991,6 +991,10 @@ button:focus,
   overflow: hidden;
 }
 
+.sidebar-section:last-child {
+  margin-bottom: 0;
+}
+
 .sidebar-header {
   background: var(--gray-700);
   padding: var(--space-4);
