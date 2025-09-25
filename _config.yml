@@ -1,0 +1,63 @@
+title: Full-Stack Interview Preparation Guide
+description: Comprehensive interview preparation covering JavaScript, TypeScript, Vue.js, Angular, React, Python, Laravel, system design, and more.
+author: Your Name
+email: your.email@example.com
+url: https://yourusername.github.io
+baseurl: /full-stack-interview-preparation
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - README.md
+  - README-full.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - .gitignore
+  - .github
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
+
+# Include in site
+include:
+  - _pages
+
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "docs"
+    values:
+      layout: "default"
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: General Strategy
+    url: /docs/general/interview-strategy.html
+  - title: Frontend
+    url: /docs/frontend/
+  - title: Backend
+    url: /docs/backend/
+  - title: Resources
+    url: /docs/resources/
