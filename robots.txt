@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://saadbinzia.github.io/full-stack-interview-preparation/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Disallow certain paths
+Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /.github/
+Disallow: /README-full.md
+Disallow: /LICENSE
+Disallow: /CONTRIBUTING.md
+Disallow: /.gitignore
+
+# Allow important files
+Allow: /assets/
+Allow: /docs/
+Allow: /index.html
+Allow: /README.md
