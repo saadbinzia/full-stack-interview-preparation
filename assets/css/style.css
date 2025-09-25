@@ -906,6 +906,33 @@ button:focus,
   color: var(--primary-color);
 }
 
+/* Table of Contents Hierarchy */
+.toc ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.toc li {
+  margin-bottom: var(--space-1);
+}
+
+.toc-h2 {
+  margin-left: 0;
+  font-weight: 600;
+}
+
+.toc-h3 {
+  margin-left: var(--space-4);
+  font-weight: 500;
+}
+
+.toc-h4 {
+  margin-left: var(--space-8);
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
 /* Article */
 .article {
   background: var(--gray-900) !important;
