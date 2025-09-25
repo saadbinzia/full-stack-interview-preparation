@@ -1,3 +1,9 @@
+---
+layout: default
+title: General Interview Preparation Strategy
+permalink: /docs/general/interview-strategy/
+---
+
 # General Interview Preparation Strategy
 
 ## Soft Skills & Experience (10+ Years)
